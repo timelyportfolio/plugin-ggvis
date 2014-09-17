@@ -1,12 +1,6 @@
 module.exports = {
     book: {
         assets: "./book",
-        js: [
-            "ggvis/js/ggvis.js"
-        ],
-        css: [
-            "ggvis/css/ggvis.css"
-        ],
         html: {
             "html:start": function() {
                 return "<!-- Start book "+this.options.title+" -->"
