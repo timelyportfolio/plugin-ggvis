@@ -2,10 +2,10 @@ module.exports = {
     book: {
         assets: "./book",
         js: [
-            "test.js"
+            "/ggvis/js/ggvis.js"
         ],
         css: [
-            "test.css"
+            "/ggvis/css/ggvis.css"
         ],
         html: {
             "html:start": function() {
